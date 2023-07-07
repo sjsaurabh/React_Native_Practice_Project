@@ -1,15 +1,14 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { View, Text } from 'react-native'
 import React from 'react'
-import DropDownComponent from './PracticeComponent/DropDownComponent'
-import PayNow from './RealCubeAPPLICATION/PayNow'
-import App1 from './Modal/App1'
+import SectionComponent from './Section_ReactNative/SectionComponent'
+import App1 from './drower/App1'
 
-export default function App() {
+const App = () => {
   return (
-    <View style={{flex:1}}>
-      <App1/>
+    <View>
+     <App1/>
     </View>
   )
 }
 
-const styles = StyleSheet.create({})
+export default App
